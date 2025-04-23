@@ -1,0 +1,1 @@
+draw_text_ext(dx, dy, text_ending, -1, 800)
