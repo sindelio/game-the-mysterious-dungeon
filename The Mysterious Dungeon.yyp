@@ -133,7 +133,6 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"room_end","path":"rooms/room_end/room_end.yy",},},
     {"roomId":{"name":"room_start","path":"rooms/room_start/room_start.yy",},},
     {"roomId":{"name":"room1","path":"rooms/room1/room1.yy",},},
     {"roomId":{"name":"room2","path":"rooms/room2/room2.yy",},},
@@ -141,6 +140,7 @@
     {"roomId":{"name":"room4","path":"rooms/room4/room4.yy",},},
     {"roomId":{"name":"room5","path":"rooms/room5/room5.yy",},},
     {"roomId":{"name":"room_battle","path":"rooms/room_battle/room_battle.yy",},},
+    {"roomId":{"name":"room_end","path":"rooms/room_end/room_end.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
