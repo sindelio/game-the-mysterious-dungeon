@@ -18,6 +18,7 @@ if (_dx != 0 and _dy != 0) {
 }
 
 // Main movement function
+show_debug_message($"{keyboard_check_pressed(vk_down)}")
 move_and_collide(_dx * move_speed, _dy * move_speed, [colission_tilemap, obj_npc_parent], undefined, undefined, undefined, move_speed, move_speed)
 
 // Sprite animation if moving

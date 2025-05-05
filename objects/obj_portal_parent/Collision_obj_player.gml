@@ -1,8 +1,9 @@
 // Make the next_room non persistent, meaning next_room will be recreated
 // This means all enemies will respawn
 // Note: The room_persistent flag blocks attempts to restart_room() if it is set to true
-// room_persistent[next_room] = false;
-next_room.persistent = false
+// alternative not working: next_room.persistent = false
+// alt 2 works differently: room_set_persistent(next_room, false)
+room_persistent[next_room] = false;
 
 // Go to the room, which will be recreated
 // Note that all rooms are persistent by default via the editor GUI
