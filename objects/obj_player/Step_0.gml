@@ -20,6 +20,10 @@ if (_dx != 0 and _dy != 0) {
 // Main movement function
 move_and_collide(_dx * move_speed, _dy * move_speed, [colission_tilemap, obj_npc_parent], undefined, undefined, undefined, move_speed, move_speed)
 
+// Clamp the player position inside the screen, so it does not go out of bounds
+x = clamp(x, sprite_width / 2, room_width - sprite_width / 2);
+y = clamp(y, sprite_height / 2, room_height - sprite_height / 2);
+
 // Sprite animation if moving
 if (_dx != 0 or _dy != 0) {
   if (_dy > 0) sprite_index = spr_player_walk_down
